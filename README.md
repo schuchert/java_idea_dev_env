@@ -14,12 +14,12 @@ You'll need a few things:
 
 * Clone the repo
 ```termainl
-git clone ...
+git clone git@github.com:schuchert/java_idea_dev_env.git
 ```
 
 * Switch to the cloned directory
 ```termaial
-cd ...
+cd java_idea_dev_env
 ```
 
 * Run `first_time.sh` and wait for it to finish:
