@@ -16,7 +16,7 @@ You'll need a few things:
 
 * Clone the repo
 ```termainl
-git clone git@github.com:schuchert/java_idea_dev_env.git
+git clone https://github.com/schuchert/java_idea_dev_env.git
 ```
 
 * Switch to the cloned directory
