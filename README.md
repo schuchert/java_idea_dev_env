@@ -3,6 +3,8 @@
 This is a quick VM definition you can use to practice the Java tutorials
 on schuchert.github.io.
 
+I originally created it for the [RpnExercises](https://schuchert.github.io/wikispaces/pages/java/rpnexercises/RpnExercises) example.
+
 ## Install Prerequs
 You'll need a few things:
 * Virtalbox
