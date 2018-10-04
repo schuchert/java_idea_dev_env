@@ -29,4 +29,26 @@ cd java_idea_dev_env
 ./first_time.sh
 ```
 
-When finished, switch over to VM window.
+## Using the VM
+
+In the cloned git-directory, you can start your vm from the command line:
+```terminal
+vagrant up
+```
+
+### IntelliJ Idea
+
+This script uses umake to install idea. It is installed in ~/.local. 
+The first time you run it, you need to run a shell script. After that,
+it will be availabe from the start menu in your Mint UI.
+```terminal
+.local/share/umake/ide/idea/bin/idea.sh
+```
+
+## Clone a repo go
+
+That's it, you are ready to create a project or clone a repo and go.
+
+If you'd like some instructions, have a look at
+* [Start a new project using Gradle](https://schuchert.github.io/wikispaces/pages/java/project.from.scratch/using.gradle.html)
+* [Clone an existing project](https://schuchert.github.io/wikispaces/pages/java/rpnexercises/RpnExercises.html#cloning-repo)
