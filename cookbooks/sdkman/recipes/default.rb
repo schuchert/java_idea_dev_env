@@ -5,7 +5,5 @@ bash 'install sdkman' do
   chown -R vagrant:vagrant /usr/local/sdkman
   echo 'export SDKMAN_DIR="/usr/local/sdkman"' >> /home/vagrant/.bashrc
   echo 'source "/usr/local/sdkman/bin/sdkman-init.sh"' >> /home/vagrant/.bashrc
-
-
   EOF
 end

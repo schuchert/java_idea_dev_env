@@ -17,6 +17,7 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provision :chef_solo do |chef|
+    chef.add_recipe "post_chef"
     chef.add_recipe "vim"
     chef.add_recipe "git"
     chef.add_recipe "openjdk11"
