@@ -13,7 +13,6 @@ Vagrant.configure("2") do |config|
     v.customize [ "modifyvm", :id, "--hwvirtex", "on" ]
     v.customize [ "modifyvm", :id, "--largepages", "on" ]
     v.customize [ "modifyvm", :id, "--accelerate3d", "on" ]
-    v.customize [ "modifyvm", :id, "--pae", "on" ]
   end
 
   config.vm.provision :chef_solo do |chef|
