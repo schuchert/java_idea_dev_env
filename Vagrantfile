@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "sdkman"
     chef.add_recipe "gradle"
     chef.add_recipe "ubuntumake"
+    chef.add_recipe "google_chrome"
     chef.add_recipe "idea"
   end
 end
