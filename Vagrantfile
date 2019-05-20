@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |v|
     v.gui = true
     v.customize [ "modifyvm", :id, "--cpuexecutioncap", "100" ]
-    v.customize [ "modifyvm", :id, "--memory", "6144" ]
+    v.customize [ "modifyvm", :id, "--memory", "8192" ]
     v.customize [ "modifyvm", :id, "--vram", "256" ]
     v.customize [ "modifyvm", :id, "--clipboard", "bidirectional" ]
     v.customize [ "modifyvm", :id, "--cpus", "4" ]
