@@ -1,16 +1,18 @@
 # Working with Java Examples
 
-This is a quick VM definition you can use to practice the Java tutorials
-on schuchert.github.io.
+This is a quick VM definition you can use to practice the Java tutorials.
 
 I originally created it for the [RpnExercises](https://schuchert.github.io/wikispaces/pages/java/rpnexercises/RpnExercises) example.
 
+Note: As with other vagrant-based solutions, the user account/password is
+vagrant/vagrant for this VM. That acocunt is also configured for sudo
+usage without a password.
+
 ## Install Prerequs
 You'll need a few things:
-* Virtalbox
-* Vagrant
+* Virtalbox (currently on 6.0.8)
+* Vagrant (currently on 2.2.4)
 * A bash shell (e.g. git bash for Windows)
-
 
 ## Create VM
 
@@ -28,6 +30,10 @@ cd java_idea_dev_env
 ```terminal
 ./first_time.sh
 ```
+
+Note, this will run, restart the VM after setting the JDK version, and then 
+the VM is ready to use. While you can use it while the system is starting 
+up, you might want to wait to let it fully finish.
 
 ## Using the VM
 

@@ -3,6 +3,7 @@ Vagrant.configure("2") do |config|
   config.vm.box_version = "19.0.0"
   config.vm.provider "virtualbox" do |v|
     v.gui = true
+    v.name =  "mint_java_idea"
     v.customize [ "modifyvm", :id, "--cpuexecutioncap", "100" ]
     v.customize [ "modifyvm", :id, "--memory", "8192" ]
     v.customize [ "modifyvm", :id, "--vram", "256" ]
